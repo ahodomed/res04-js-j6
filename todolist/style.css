@@ -1,0 +1,27 @@
+body{
+
+    
+    
+}
+
+
+
+
+.formulaire{
+    display: flex;
+    justify-content:center;
+    border:1px solid black;
+    width:40%;
+    margin:2em;
+}
+
+.champ{
+    display: block;
+    margin-bottom:1rem ;
+    
+
+}
+
+.etiquette{
+    font-size: 20px;
+}
