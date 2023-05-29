@@ -1,30 +1,39 @@
 body{
-
+    display: flex;
+    justify-content:center;
     
     
 }
-
-
 
 
 .formulaire{
     display: flex;
     justify-content:center;
     border:1px solid black;
-    width:40%;
+    width:30%;
     margin:2em;
     border-radius:5px;
     padding: 2em;
     box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
+/*.zone{
+    display: flex;
+}
+*/
+
 .champ{
-    display: block;
+    display: flex;
+    background-color: red;
     margin-bottom:1rem ;
     
 
 }
 
+input{
+    float:right;
+    
+}
 .etiquette{
     font-size: 20px;
 }
