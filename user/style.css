@@ -8,12 +8,13 @@ body{
 
 .formulaire{
     display: flex;
+    position: relative;
     justify-content:center;
-    border:1px solid black;
+    border:1px solid #9F589F;
     width:30%;
     margin:2em;
-    border-radius:5px;
     padding: 2em;
+    border-radius:10px;
     box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
@@ -24,6 +25,10 @@ body{
 
 .champ{
     display: flex;
+    position: relative;
+    border-radius:10px;
+    height: 2em;
+    width:80%;
     background-color: red;
     margin-bottom:1rem ;
     
@@ -32,10 +37,18 @@ body{
 
 input{
     float:right;
+    position:relative;
+    box-shadow:10px 8px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:10px;     
     
 }
 .etiquette{
     font-size: 20px;
+}
+
+label{
+  position:relative;
+
 }
 
 .btn{
